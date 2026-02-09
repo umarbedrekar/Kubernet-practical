@@ -1,0 +1,79 @@
+Q1. Smallest unit Kubernetes deploys?
+
+ B. Pod
+
+Q2. Object used to expose pods to network traffic?
+
+ C. Service
+
+Q3. Service type for internal communication only?
+
+ C. ClusterIP
+
+Q4. Access app using <NodeIP>:<Port> — Which Service?
+
+ B. NodePort
+
+Q5. Cloud environments use which Service to expose apps externally?
+
+ C. LoadBalancer
+
+Q6. Pod deleted accidentally — which can recreate it?
+
+ C. Pod managed by Deployment
+
+Q7. Pod type used for initialization tasks?
+
+ B. Init Pod
+
+Q8. Containers inside same pod communicate using?
+
+ C. Same IP address
+
+Q9. Service that assigns stable internal IP?
+
+ C. ClusterIP
+
+Q10. Service created but traffic not reaching Pod — most common reason?
+
+ B. Label mismatch
+
+Q11. Component providing DNS-based service discovery?
+
+ C. CoreDNS
+
+Q12. Pod that always runs on a specific node?
+
+ C. Static Pod
+
+Q13. Service exposing fixed port on every node?
+
+ B. NodePort
+
+Q14. Pods want to access app using DNS name — which Service?
+
+ C. ClusterIP
+
+Q15. Command to show Pod IP?
+
+ C. kubectl get pods -o wide
+
+Q16. LoadBalancer service in local cluster — what happens?
+
+ B. External IP stays pending
+
+Q17. Pod used to support main app (logging/monitoring)?
+
+ C. Sidecar Pod
+
+Q18. Which Service field decides which pods get traffic?
+
+ C. selector
+
+Q19. Command to list all services?
+
+ B. kubectl get svc
+
+Q20. Two pods communicate — recommended way?
+
+ B. Use Service name
