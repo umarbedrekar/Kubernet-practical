@@ -7,6 +7,7 @@ This project deploys an Nginx web application on a Kubernetes cluster using a De
 - Created a NodePort service to expose the application externally.
 - Accessed the application successfully using:
 
- ##Screenshot
+## Screenshot
+
 <img width="960" height="471" alt="Screenshot 2026-02-09 134647" src="https://github.com/user-attachments/assets/d01b386b-3eb2-4131-a1d0-db497f4c03ad" />
 
