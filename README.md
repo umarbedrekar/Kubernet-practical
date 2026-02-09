@@ -1,4 +1,4 @@
-![alt text](<Screenshot 2026-02-09 134647.png>)
+(<Screenshot 2026-02-09 134647.png>)
 # Kubernetes Practical
 
 This project deploys an Nginx web application on a Kubernetes cluster using a Deployment and exposes it using a NodePort service.
